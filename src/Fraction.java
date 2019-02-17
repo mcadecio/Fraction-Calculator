@@ -1,7 +1,7 @@
 public class Fraction {
 
-    private int numerator = 0;
-    private int denominator = 1;
+    private int numerator;
+    private int denominator;
 
     public Fraction(int num, int den){
 
@@ -17,9 +17,13 @@ public class Fraction {
 
     public Fraction(int num){
         this.numerator = num;
+        this.denominator = 1;
     }
 
-    public Fraction(){}
+    public Fraction(){
+        this.numerator = 0;
+        this.denominator = 1;
+    }
 
     public int getNumerator() {
         return numerator;
@@ -38,9 +42,10 @@ public class Fraction {
     }
 
     public Fraction add(Fraction other){
-        int den = 0, num = 0;
+        int den = denominator, num = numerator;
         if (denominator != other.denominator){
             den = denominator * other.denominator;
+            other.numerator = other.numerator * denominator;
             num = (numerator * other.denominator);
         }
         num = num + other.numerator;
@@ -48,7 +53,7 @@ public class Fraction {
     }
 
     public Fraction sub(Fraction other){
-        int den = 0, num = 0;
+        int den = denominator, num = numerator;
         if (denominator != other.denominator){
             den = denominator * other.denominator;
             num = (numerator * other.denominator);
@@ -92,7 +97,7 @@ public class Fraction {
 
     public static int gcd(int num, int den){
 
-        while (num != 0|| den != 0){
+        while (num != 0 && den != 0){
             int remainder = num % den;
             num = den;
             den = remainder;
