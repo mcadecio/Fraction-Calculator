@@ -86,10 +86,10 @@ public class FractionCalculator {
 
     private static boolean isValid(String s) {
         if (s.equals("") || s.equals(null)) return false;
-        if (s.contains("-")) {
-            return false;
-        }
-        if (s.matches("[0-9]+\\/[1-9]+") || s.matches("[0-9]+")) {
+//        if (s.contains("-")) {
+//            return false;
+//        }
+        if (s.matches("((([-+]?[0-9]?)+)(\\/[-+]?[0-9]+)?)")) {
             return true;
         }
         return false;

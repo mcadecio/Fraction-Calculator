@@ -64,7 +64,7 @@ public class FractionCalculatorAdvanced {
             op = in.nextLine();
             if (op.equalsIgnoreCase("q")) {
                 System.exit(0);
-            } else if (!op.matches("(([0-9])+[/]?([0-9])?)+( [-+/*=] )([0-9]+[/]?[0-9]?)+"))  {
+            } else if (!op.matches("(([-+]?[0-9])+[/]?([-+]?[0-9])?)+( [-+/*=] )([-+]?[0-9]+[/]?[-+]?[0-9]?)+"))  {
                 valid = false;
                 System.out.print("Invalid operation. Must be a " +
                         "\"[FRAC] [OPERATION] [FRAC]\"" +
