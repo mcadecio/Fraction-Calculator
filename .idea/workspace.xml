@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65692ca8-e579-446a-ab9a-9a556aba1c17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FractionCalculatorAdvanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/FractionCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/FractionCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FractionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FractionCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FractionCalculatorAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FractionCalculatorAdvanced.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FractionCalculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FractionCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FractionCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+            <state relative-caret-position="-68">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FractionCalculatorAdvanced.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FractionCalculatorAdvanced.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FractionCalculatorAdvanced.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="1241">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -78,6 +73,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Fraction.java" />
         <option value="$PROJECT_DIR$/src/FractionCalculator.java" />
+        <option value="$PROJECT_DIR$/src/FractionCalculatorAdvanced.java" />
       </list>
     </option>
   </component>
@@ -127,16 +123,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FractionCalculator">
+  <component name="RunManager" selected="Application.FractionCalculatorAdvanced">
     <configuration name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fraction" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FractionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractionCalculator" />
+    <configuration name="FractionCalculatorAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractionCalculatorAdvanced" />
       <module name="untitled" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -181,11 +177,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fraction" />
-      <item itemvalue="Application.FractionCalculator" />
+      <item itemvalue="Application.FractionCalculatorAdvanced" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FractionCalculator" />
+        <item itemvalue="Application.FractionCalculatorAdvanced" />
         <item itemvalue="Application.Fraction" />
       </list>
     </recent_temporary>
@@ -215,7 +211,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46921444" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17409766" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -317,7 +313,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -379,17 +375,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FractionCalculatorAdvanced.java">
+    <entry file="file://$PROJECT_DIR$/src/FractionCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="-68">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FractionCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/FractionCalculatorAdvanced.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
         </state>
       </provider>
     </entry>
